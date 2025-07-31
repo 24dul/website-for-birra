@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Cinta Hatiku, Birra ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Music Control -->
+        <div class="music-control">
+            <button id="musicToggle" class="music-btn" title="Play/Pause Music">
+                <span id="musicIcon">🎵</span>
+            </button>
+        </div>
+
+        <!-- Header Section -->
+        <header class="hero-section">
+            <div class="floating-hearts">
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+            </div>
+            
+            <h1 class="main-title">
+                Selamat Hari Pacar, Cinta Hatiku 💕
+            </h1>
+            <h2 class="subtitle">
+                Untuk <span class="highlight">Birra Elfathni</span><br>
+                <span class="love-title">✨ Malaikat Kecilku ✨</span>
+            </h2>
+            
+            <div class="turtle-container">
+                <div class="turtle">🐢</div>
+                <div class="speech-bubble">
+                    Kamu adalah segalanya bagiku!
+                </div>
+            </div>
+        </header>
+
+        <!-- Love Declaration Section -->
+        <section class="love-declaration">
+            <h3>💖 Surat Cinta Digital Untukmu</h3>
+            <div class="love-letter">
+                <p class="letter-text">
+                    Birra sayang, hari ini adalah hari yang spesial untuk merayakan cinta kita. 
+                    Kamu bukan hanya pacar terbaik, tapi juga sahabat, inspirasi, dan alasan aku tersenyum setiap hari.
+                </p>
+                <p class="letter-text">
+                    Setiap detik bersamamu adalah hadiah terindah. Kamu membuat dunia ini lebih berwarna, 
+                    lebih hangat, dan penuh dengan kebahagiaan yang tak terhingga.
+                </p>
+                <div class="signature">
+                    Dengan cinta yang tak terbatas,<br>
+                    <span class="signature-name">Pacarmu yang paling sayang ❤️</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons Why I Love You -->
+        <section class="love-reasons">
+            <h3>🌟 Alasan Kenapa Aku Jatuh Cinta Padamu</h3>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">🧶</div>
+                    <h4>Tangan Ajaibmu</h4>
+                    <p>Cara kamu menciptakan keindahan dengan crochet membuatku terpesona. Setiap jahitan adalah karya seni yang penuh cinta.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🍡</div>
+                    <h4>Kelembutan Hatimu</h4>
+                    <p>Seperti mochi yang lembut, hatimu selalu hangat dan menyentuh. Kamu selalu tahu cara membuatku merasa dicintai.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🐢</div>
+                    <h4>Kesabaran Malaikatmu</h4>
+                    <p>Seperti turtle yang bijaksana, kamu mengajariku arti kesabaran dan ketenangan dalam setiap langkah hidup.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">✨</div>
+                    <h4>Senyum yang Menyihir</h4>
+                    <p>Senyummu adalah sihir yang paling indah. Satu senyuman darimu bisa mengubah hari terburukku menjadi yang terbaik.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🌙</div>
+                    <h4>Mimpi Terindahku</h4>
+                    <p>Kamu adalah jawaban dari semua doa-doaku. Bersamamu, aku menemukan arti cinta sejati yang selama ini kucari.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🌸</div>
+                    <h4>Kehadiranmu</h4>
+                    <p>Dunia terasa lebih indah ketika kamu ada. Kamu membawa kedamaian dan kebahagiaan ke dalam hidupku.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Games Section -->
+        <section class="games-section">
+            <h3>🎮 Games Cinta Untuk Kita Berdua</h3>
+            
+            <!-- Love Memory Game -->
+            <div class="game-container">
+                <h4>💕 Memory Game - Kenangan Cinta Kita</h4>
+                <p class="game-desc">Temukan pasangan simbol cinta kita!</p>
+                <div class="memory-game" id="memoryGame">
+                    <div class="memory-card" data-card="heart">
+                        <div class="card-front">💖</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="heart">
+                        <div class="card-front">💖</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="turtle">
+                        <div class="card-front">🐢</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="turtle">
+                        <div class="card-front">🐢</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="mochi">
+                        <div class="card-front">🍡</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="mochi">
+                        <div class="card-front">🍡</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="yarn">
+                        <div class="card-front">🧶</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                    <div class="memory-card" data-card="yarn">
+                        <div class="card-front">🧶</div>
+                        <div class="card-back">❓</div>
+                    </div>
+                </div>
+                <button class="game-btn" id="resetMemoryGame">Main Lagi</button>
+                <div class="memory-score">Langkah: <span id="memoryMoves">0</span></div>
+            </div>
+
+            <!-- Heart Catching Game -->
+            <div class="game-container">
+                <h4>💖 Tangkap Cinta yang Jatuh dari Langit</h4>
+                <p class="game-desc">Bantu turtle menangkap semua cinta yang turun untukmu!</p>
+                <div class="game-area" id="heartCatchGame">
+                    <div class="turtle-catcher" id="turtleCatcher">🐢</div>
+                    <div class="score-display">Cinta Tertangkap: <span id="catchScore">0</span></div>
+                    <button class="game-btn" id="startCatchGame">Mulai Menangkap Cinta!</button>
+                </div>
+            </div>
+
+            <!-- Love Quiz Game -->
+            <div class="game-container">
+                <h4>💝 Kuis Cinta: Seberapa Kenal Kamu Denganku?</h4>
+                <div class="quiz-container" id="loveQuiz">
+                    <div class="question-card" id="questionCard">
+                        <p class="question-text" id="questionText">Klik "Mulai Kuis" untuk memulai!</p>
+                        <div class="quiz-options" id="quizOptions"></div>
+                    </div>
+                    <button class="game-btn" id="startQuiz">Mulai Kuis Cinta</button>
+                    <div class="quiz-score">Skor: <span id="quizScore">0</span>/5</div>
+                </div>
+            </div>
+
+            <!-- Turtle Race -->
+            <div class="game-container">
+                <h4>🏁 Balapan Turtle Cinta</h4>
+                <p class="game-desc">Turtle mana yang akan menang membawa pesan cinta?</p>
+                <div class="racing-track">
+                    <div class="race-lane">
+                        <span class="lane-label">Turtle Sayang:</span>
+                        <div class="racer" id="turtle1">🐢</div>
+                    </div>
+                    <div class="race-lane">
+                        <span class="lane-label">Turtle Cinta:</span>
+                        <div class="racer" id="turtle2">🐢</div>
+                    </div>
+                    <div class="race-lane">
+                        <span class="lane-label">Turtle Bahagia:</span>
+                        <div class="racer" id="turtle3">🐢</div>
+                    </div>
+                </div>
+                <button class="game-btn" id="startRace">Mulai Balapan!</button>
+                <div class="race-result" id="raceResult"></div>
+            </div>
+        </section>
+
+        <!-- Interactive Surprise Section -->
+        <section class="surprise-section">
+            <h3>🎁 Surprise Spesial Untukmu</h3>
+            <p class="surprise-instruction">Klik turtle di bawah untuk mendapatkan pesan cinta spesial!</p>
+            <div class="surprise-turtle" id="surpriseTurtle">
+                <div class="turtle-big">🐢</div>
+            </div>
+            <div class="surprise-message" id="surpriseMessage">
+                <p>Birra, kamu adalah hadiah terindah dalam hidupku...</p>
+                <p>Setiap hari bersamamu adalah petualangan cinta yang tak akan pernah berakhir 💕</p>
+                <p>Aku berjanji akan selalu mencintaimu dengan segenap hatiku, selamanya ✨</p>
+            </div>
+        </section>
+
+        <!-- Love Promise Section -->
+        <section class="promise-section">
+            <h3>🤝 Janji Cintaku Untukmu</h3>
+            <div class="promises-container">
+                <div class="promise-item">
+                    <div class="promise-icon">🌅</div>
+                    <p>Aku berjanji akan mencintaimu dari matahari terbit hingga tenggelam</p>
+                </div>
+                <div class="promise-item">
+                    <div class="promise-icon">🌙</div>
+                    <p>Aku akan menjadi tempat ternyaman untuk kamu bersandar</p>
+                </div>
+                <div class="promise-item">
+                    <div class="promise-icon">⭐</div>
+                    <p>Aku akan selalu mendukung mimpi-mimpimu dan tumbuh bersamamu</p>
+                </div>
+                <div class="promise-item">
+                    <div class="promise-icon">🌈</div>
+                    <p>Aku akan membuat setiap hari kita penuh dengan warna kebahagiaan</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="turtle-couple">
+                <span class="turtle-left">🐢</span>
+                <span class="heart-between">💕</span>
+                <span class="turtle-right">🐢</span>
+            </div>
+            <p class="footer-message">Dibuat dengan segenap cinta untuk Birra tersayang</p>
+            <div class="footer-hearts">
+                <span>💖</span><span>✨</span><span>💖</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
