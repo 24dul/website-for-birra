@@ -252,9 +252,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         let message = '';
         if (catchScore >= 15) {
-            message = `Luar biasa! Kamu menangkap ${catchScore} cinta! Birra pasti bangga! 💖🎉`;
+            message = `Luar biasa! Birra menangkap ${catchScore} cinta! Hebat sekali sayang! 💖🎉`;
         } else if (catchScore >= 10) {
-            message = `Bagus sekali! ${catchScore} cinta tertangkap! Kamu hebat sayang! 💕✨`;
+            message = `Bagus sekali! ${catchScore} cinta tertangkap! Birra memang jago! 💕✨`;
         } else {
             message = `${catchScore} cinta tertangkap! Cinta kita tetap sempurna! 💗🐢`;
         }
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (matchedPairs === 4) {
                     let message = '';
                     if (moves <= 10) {
-                        message = `Sempurna! Kamu menyelesaikan memory game dalam ${moves} langkah! Birra pasti terkesan! 🧠💖`;
+                        message = `Sempurna! Memory game selesai dalam ${moves} langkah! Birra memang pintar! 🧠💖`;
                     } else {
                         message = `Selamat! Game selesai dalam ${moves} langkah! Kenangan cinta kita memang tak terlupakan! 💕✨`;
                     }
@@ -452,10 +452,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         let message = '';
         if (quizScore === 5) {
-            message = "Perfect! Kamu tahu semua jawaban tentang cinta kita! Birra pasti terharu! 💖👑";
-            questionText.textContent = "Kamu adalah pacar terbaik di dunia! 💕";
+            message = "Perfect! Birra tahu semua jawaban tentang cinta kita! Aku terharu sayang! 💖👑";
+            questionText.textContent = "Birra adalah pacar terbaik di dunia! 💕";
         } else if (quizScore >= 3) {
-            message = `Bagus sekali! Skor ${quizScore}/5! Kamu memang mengerti hatiku! 💕✨`;
+            message = `Bagus sekali! Skor ${quizScore}/5! Birra memang mengerti hatiku! 💕✨`;
             questionText.textContent = "Cinta kita memang istimewa! 💖";
         } else {
             message = `Skor ${quizScore}/5! Yang penting cinta kita tulus dan nyata! 💗🐢`;
